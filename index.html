@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="split left">
+        <div class="imgs">
+            <img class="image1" src="alex-london.jpg" alt="alexander-london">
+            <div class="opaque">
+                <img class="image2" src="odin-logo.png" width="105" height="100">
+                <!-- <div class="heading">Website</div> -->
+            </div>
+            <div class="credit">Photo by <a href="https://unsplash.com/@alxndr_london?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander London</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+        </div>
+    </div>
+    <div class="split right">
+        <div class="description">This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            <br>
+            Sign up <em>now</em> to get started.
+            <br>
+            <br>
+            You <em>know</em> you want to.
+        </div>
+        <div class="form">
+            <div class="formDescription">Let's do this!</div>
+            <br>
+            <form action="" method="post">
+                <div class="row">
+                    <div class="column">
+                        <label for="fname">First Name: <span aria-label="required">*</span></label>
+                        <input id="fname" type="text" name="fname" placeholder="Bob"/>
+                        <br><br>
+                        <label for="email">E-mail: <span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" />
+                        <br><br>
+                        <label for="user_password">Password:*</label>
+                        <input type="password" id="user_password" name="user_password" required>
+
+                    </div>
+                    <div class="column">
+                        <label for="lname">Last Name: <span aria-label="required">*</span></label>
+                        <input id="lname" type="text" name="lname" placeholder="Drake"/>
+                        <br><br>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="tel" name="tel" />
+                        <br><br>
+                        <label for="user_c_password">Confirm Password:*</label>
+                        <input type="password" id="user_c_password" name="user_c_password" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="account">
+            <div class="create">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="old-account">
+                <div class="log-in">Already have an account? <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiI6bOkrOX9AhWMT8AKHddhCcAQPAgI">Log in</a></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
